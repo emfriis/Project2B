@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Page</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/index.css">
+    </head>
+    <body>
+        <nav>
+            <div class="logo">
+                <img src="../assets/images/mylogo.png" alt="user" />
+            </div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact Me</a></li>
+            </ul>
+        </nav>
+
+        <header>
+            <button id="toggle" class="toggle">
+                <i class="fa fa-bars fa-2x"></i>
+            </button>
+
+            <h1>My Landing Page</h1>
+
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget faucibus nisl. Praesent consequat mauris.
+            </p>
+        </header>
+
+        <div class="container">
+            <h2>Things 1</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nec urna nunc. Proin dictum neque vitae neque mattis sagittis. Proin a dolor id risus congue fringilla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur convallis, nulla id maximus condimentum, quam lorem sollicitudin massa, ac elementum elit urna vel massa. Cras pretium auctor turpis et rhoncus. Donec rutrum est tortor, in pellentesque nulla fermentum in. Fusce sed quam ut nunc malesuada lacinia tempus in dui. Phasellus ac risus viverra, gravida nunc sit amet, sagittis purus. Nullam lobortis dui non ornare volutpat. Proin ornare nibh et semper ornare. Fusce viverra dignissim eros, vitae ornare mi fringilla non.</p>
+            <h2>Things 2</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis placerat leo in ipsum posuere, quis eleifend ex elementum. Nulla suscipit gravida tellus a blandit. In congue odio sapien, ac dictum eros ultricies sit amet. Nam vitae dui a ipsum auctor ornare sit amet vel sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; In hac habitasse platea dictumst.</p>
+            <h2>Things 3</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque commodo erat lobortis, iaculis ex ac, aliquet ex. Pellentesque sit amet mollis lacus. Phasellus elit velit, consectetur eget ex eu, condimentum ullamcorper elit. Aenean porttitor risus ligula, nec commodo mauris tincidunt nec. Donec gravida bibendum nulla, vitae egestas libero pulvinar sed. Nam nec magna risus. Donec egestas eget erat imperdiet volutpat. Proin a justo metus. Nullam malesuada porttitor nisl et luctus.</p>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal-container" id="modal">
+            <button class="close-btn" id="close">
+                <i class="fa fa-times"></i>
+            </button>
+            <div class="modal-header">
+                <h3>Sign Up</h3>
+            </div>
+            <div class="modal-content">
+                <p> Register with us to get offers, support, and more</p>
+                <form class="modal-form">
+                    <div>
+                        <label for="name">Name</label>
+                        <input
+                            type="text"
+                            id="name"
+                            placeholder="Enter Name"
+                            class="form-input"
+                        />
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input
+                            type="email"
+                            id="email"
+                            placeholder="Enter Email"
+                            class="form-input"
+                        />
+                    </div>
+                    <div>
+                        <label for="password">Password</label>
+                        <input
+                            type="password"
+                            id="password"
+                            placeholder="Enter Password"
+                            class="form-input"
+                        />
+                    </div>
+                    <div>
+                        <label for="password2">Confirm Password</label>
+                        <input
+                            type="password"
+                            id="password2"
+                            placeholder="Confirm Password"
+                            class="form-input"
+                        />
+                    </div>
+                    <input 
+                        type="submit"
+                        value="Submit"  
+                        class="submit-btn"
+                    />
+                </form>
+            </div>
+        </div>
+
+        <script src="index.js" async defer></script>
+    </body>
+</html>
